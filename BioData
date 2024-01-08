@@ -1,0 +1,107 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>D.Sneha</h1>
+        <p>An enthusiastic fresher, eager to acquire knowledge in the field of web development and seeking prior experience.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#frontend">Frontend</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a budding web developer, I am eager to embark on a dynamic role where I can contribute to the creation of new components based on design specifications. I am excited about the opportunity to work independently, honing my skills in writing maintainable code. My objective is to absorb knowledge and gain hands-on experience in understanding existing code, while actively participating in suggesting optimizations for enhanced functionality and performance.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Project</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>The "Football Game Winners Predictions using Machine Learning Techniques" project aims to leverage advanced machine learning algorithms to forecast the outcomes of football games. By analyzing historical match data, team statistics, player performances, and various influencing factors, the system will employ predictive modeling to identify potential winners in upcoming matches. </p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Phone: 9944830554</p>
+        <p>Email: shalinisneha80@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sneha-shalini-907b40273/" target="_blank">sneha-shalini-907b40273</a></p>
+        <p>GitHub: <a href="https://github.com/SNEHA-D-2003">SNEHA-D-2003</a></p>
+    </section>
+
+    <section id="frontend">
+        <h2>Frontend</h2>
+        <p>Embarking on the journey of learning frontend development is an exhilarating experience that seamlessly blends creativity with technical prowess.</p>
+        <p>Created a simple calculator using HTML,CSS & JAVASCRIPT</p>
+        <a href="https://github.com/SNEHA-D-2003">Calculator</a>
+        <p>Created a Personal Portfolio using HTML,CSS,JAVASCRIPT</p>
+        <a href="https://github.com/SNEHA-D-2003">Portfolio</a>
+    <footer>
+        <p>&copy; 2024 D.Sneha. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+//Style.css
+body {
+    background-color: palevioletred;
+    font-family: 'Times new roman', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 2px solid #333;
+}
